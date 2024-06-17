@@ -27,6 +27,7 @@
                 "predeploy": "npm run build",<br/>
                 "deploy": "gh-pages -d build"
             </li>
+            <li>npm run deploy</li>
         </ul>
     </li>
 </ul>
