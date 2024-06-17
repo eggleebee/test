@@ -11,14 +11,13 @@
 
 <ul>
     <li>Settings</li>
-    <li>GitHub Pages</li>
-    <li>Pages</li>
-    <li>Branch [main]선택</li>
-    <li>[save]후 기다리세요</li>
-</ul>
-
-
-<ul>
+    <li>GitHub Pages
+        <ul>
+            <li>Pages</li>
+            <li>Branch [main]선택</li>
+            <li>[save]후 기다리세요</li>
+        </ul>
+    </li>
     <li>npm i gh-pages</li>
     <li>package.json 파일열고 아래내용추가
         <ul>
@@ -27,7 +26,14 @@
                 "predeploy": "npm run build",<br/>
                 "deploy": "gh-pages -d build"
             </li>
-            <li>npm run deploy</li>
+        </ul>
+    </li>
+     <li>npm run deploy</li>
+     <li>GitHub Pages
+        <ul>
+            <li>Pages</li>
+            <li>Branch [gh-pages]선택</li>
+            <li>[save]후 기다리세요</li>
         </ul>
     </li>
 </ul>
