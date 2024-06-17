@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
+import { BrowserRouter, Route, Routes, Link, HashRouter } from "react-router-dom";
 import HomeView from "./views/HomeView";
 import About from "./components/About";
 
@@ -16,8 +16,8 @@ const App = () => {
 
     return (
         <div>
+            <HashRouter>
 
-            <BrowserRouter>
                 <ul style={{ position: "absolute", bottom: 0, zIndex: 10001, backgroundColor: "black", color: "white" }}>
                     <li><Link to="/">포트폴리오</Link></li>
                 </ul>
@@ -26,7 +26,7 @@ const App = () => {
                     <Route path="/" element={<HomeView />} />
                 </Routes>
 
-            </BrowserRouter>
+            </HashRouter>
         </div>
     );
 };
