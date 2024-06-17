@@ -19,7 +19,7 @@ const App = () => {
             <HashRouter>
 
                 <ul style={{ position: "absolute", bottom: 0, zIndex: 10001, backgroundColor: "black", color: "white" }}>
-                    <li><Link to="/">포트폴리오</Link></li>
+                    <li><Link to="/">포트폴리오열기</Link></li>
                 </ul>
 
                 <Routes>
