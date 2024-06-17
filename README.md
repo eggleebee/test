@@ -16,3 +16,8 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/eggleebee/test.git
 git push -u origin main
+
+
+GitHub Pages에서 <br/>
+Pages<br/>
+Branch [main]선택
