@@ -23,7 +23,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "port-pages -d build"
+    "deploy": "port -d build"
   },
   "eslintConfig": {
     "extends": [
