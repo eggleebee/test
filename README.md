@@ -23,6 +23,7 @@
         <ul>
             <li>"homepage": "https://eggleebee.github.io/test/",</li>
             <li>"scripts": 
+                
                 "predeploy": "npm run build",<br/>
                 "deploy": "gh-pages -d build"
             </li>
