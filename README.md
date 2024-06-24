@@ -39,6 +39,17 @@
     </li>
 </ul>
 
+build
+프로젝트를 한 번 빌드 한 후, gh-pages를 통해 다시 빌드 해준다.
+
+npm run build
+
+npm run deploy
+
+npm run deploy를 통해 npm run build 까지 실행된다고 하지만, 그래도 가장 처음에 npm run build를 해서 build 파일을 만들어줘야 한다.
+
+page 재설정
+
 <em>
 “predeploy” : “npm run build”<br/>
 npm run deploy 명령어를 입력했을 때 deploy 가 수행되기 전에 build를 한다.<br/>
